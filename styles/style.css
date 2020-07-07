@@ -3,6 +3,10 @@ body{
   box-sizing: border-box;
 }
 
+.container{
+  margin-bottom: 100px;
+  
+}
 .nav-right{
   position: absolute;
   right: 0px;
@@ -11,12 +15,37 @@ body{
 section{
   height: 500px;
 }
+
 .col-md-6 img{
   height: 100%;
   width: 100%;
 }
 .row{
   height: 100%;
+}
+
+.card-body{
+  text-align: center;
+}
+
+.card img{
+  height: 200px;
+  width:200px
+  
+}
+
+.card-footer{
+  background-color: #fff;
+  border: none;
+  text-align: center;
+  
+}
+
+.buy-now-button{
+  background-color: rgb(0, 0,0);
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 8px;
 }
 
 
