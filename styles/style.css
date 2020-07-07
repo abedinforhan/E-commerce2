@@ -28,11 +28,11 @@ section{
   text-align: center;
 }
 
-.card img{
+ .card img{
   height: 200px;
   width:200px
   
-}
+} 
 
 .card-footer{
   background-color: #fff;
@@ -48,4 +48,28 @@ section{
   border-radius: 8px;
 }
 
+
+ /* .img-div{
+  border:none;
+  padding: 15px 20px ;
+  box-shadow: 10px 10px 20px;
+  
+  
+}  */
+
+.card , .img-div img{
+  box-shadow: 10px 10px 20px gray;
+  border-radius: 8px;
+  padding: 20px 25px ;
+}
+
+/* .img-div img{
+  heigh:200px;
+  width: 200px; */
+  
+
+
+.height-400{
+  height:400px;
+}
 
